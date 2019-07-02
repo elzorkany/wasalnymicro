@@ -1,0 +1,8 @@
+version: '2'
+services:
+  wasalnymicro-mongodb:
+    image: mongo:4.0.9
+    ports:
+      - '27017:27017'
+    # volumes:
+    #     - ~/volumes/jhipster/wasalnymicro/mongodb/:/data/db/
